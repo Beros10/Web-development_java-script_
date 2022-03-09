@@ -1,0 +1,16 @@
+body{
+    margin: 20px;
+}
+section{
+    margin-right: 0;
+    float: left;
+}
+.vierkant{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px black solid;
+    background-color: rgb(128,128,128);
+}
