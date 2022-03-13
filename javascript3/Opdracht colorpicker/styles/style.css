@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+}
+.sliders{
+    margin-right: 0;
+    float: left;
+}
+.vierkant{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px black solid;
+    background-color: rgb(128,128,128);
+}
+section{
+    padding-left: 20px;
+    height: 150px;
+    width: 450px;
+    border: 5px gray solid;
+    border-radius: 15px;
+}
