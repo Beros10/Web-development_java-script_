@@ -8,11 +8,12 @@ window.addEventListener("load", setup);
 const tellen = (eenzin) => {
     let teller = 0
     let zoekopdracht = "an"
-    let positie= eenzin.indexOf(zoekopdracht)
+    let eenZin = eenzin.toLowerCase();
+    let positie= eenZin.indexOf(zoekopdracht)
     while (positie>=0){
         teller++;
         positie++;
-        positie = eenzin.indexOf(zoekopdracht, positie);
+        positie = eenZin.indexOf(zoekopdracht, positie);
     }
     return(teller)
 }
@@ -20,11 +21,12 @@ const tellen = (eenzin) => {
 const tellen2 = (eenzin) => {
     let teller = 0
     let zoekopdracht = "an"
-    let positie = eenzin.lastIndexOf(zoekopdracht)
-    while (positie !== eenzin.indexOf(zoekopdracht)){
+    let eenZin = eenzin.toLowerCase();
+    let positie = eenZin.lastIndexOf(zoekopdracht)
+    while (positie !== eenZin.indexOf(zoekopdracht)){
         teller++;
         positie--;
-        positie = eenzin.lastIndexOf(zoekopdracht, positie);
+        positie = eenZin.lastIndexOf(zoekopdracht, positie);
     }
     //omdat je eerste zal overslaan
     teller++
