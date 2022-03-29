@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Opdracht formwaarden</title>
+</head>
+<body>
+<form>
+    <label for="isRoker">Is roker</label>
+    <input type="checkbox" id="isRoker" name="Is een roker">
+    <br>
+    Moedertaal
+    <input type="radio" id="nl" name="moedertaal" value="nl">
+    <label for="nl">Nederlands</label>
+    <input type="radio" id="fr" name="moedertaal" value="fr">
+    <label for="fr">Frans</label>
+    <input type="radio" id="en" name="moedertaal" value="en">
+    <label for="en">Engels</label>
+    <br>
+    <label for="buurland">Favoriete buurland</label>
+    <select id="buurland" name="landen">
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Nederlands">Nederlands</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Luxemburg">Luxemburg</option>
+    </select>
+    <br>
+    <label for="besteling">Besteling</label>
+    <select id="besteling" name="bestelling" multiple>
+        <option value="aardappelen">aardappelen</option>
+        <option value="brood">brood</option>
+        <option value="melk">melk</option>
+        <option value="biefstuk">biefstuk</option>
+        <option value="chips">chips</option>
+        <option value="krant">krant</option>
+    </select>
+    <br>
+</form>
+<button id="button">Toon resultaat</button>
+<script type="text/javascript" charset="utf-8"
+        src="scripts/code.js"></script>
+</body>
+<footer><a href="../../index.html">Home</a>&nbsp<a href="../index.html">Back</a></footer>
+</html>

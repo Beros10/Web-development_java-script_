@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="" />
+    <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,16 +37,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascript4" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/oplossing formvalidatie code variaties(2)/oplossing formvalidatie code variaties(1)/oplossing formvalidatie code variaties" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript5" />
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript4" />
       <recent name="C:\Users\Bryn Verhaevert\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript4" />
       <recent name="C:\Users\Bryn Verhaevert\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Javascript3" />
-      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Javascript2\Opdracht 03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,6 +73,16 @@
       <workItem from="1647726770308" duration="6861000" />
       <workItem from="1647733974975" duration="651000" />
       <workItem from="1647734727436" duration="75000" />
+      <workItem from="1647734878367" duration="214000" />
+      <workItem from="1648022796271" duration="25000" />
+      <workItem from="1648022923820" duration="972000" />
+      <workItem from="1648024097144" duration="18000" />
+      <workItem from="1648027547919" duration="5349000" />
+      <workItem from="1648450251141" duration="606000" />
+      <workItem from="1648453013273" duration="658000" />
+      <workItem from="1648454218613" duration="2364000" />
+      <workItem from="1648536631899" duration="6910000" />
+      <workItem from="1648570564771" duration="4531000" />
     </task>
     <servers />
   </component>
