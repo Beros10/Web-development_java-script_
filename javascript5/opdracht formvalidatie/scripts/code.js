@@ -53,7 +53,7 @@ const valideerGeboortedatum = () => {
     if (geboortedatumWaarde.length <= 0) {
         setError(geboortedatum, 'verplicht veld');
         return false;
-    } else if (!isGetal(jaar) && !isGetal(maand) && !isGetal(dag)) {
+    } else if (!isGetal(jaar) || !isGetal(maand) || !isGetal(dag)) {
         setError(geboortedatum, 'formaat is niet jjjj‐mm‐dd');
         return false;
     } else if (geboortedatumWaarde.charAt(4) !== '-' && geboortedatumWaarde.charAt(7) !== '-') {
