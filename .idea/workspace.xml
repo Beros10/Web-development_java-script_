@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="" />
+    <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/javascript6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript6/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +50,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="24rzgo1Q3uB5rN98r2usAsBuTqU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_\javascript6" />
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_\javascript6\opdracht extra oefeningen" />
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript5" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript4" />
-      <recent name="C:\Users\Bryn Verhaevert\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript4" />
-      <recent name="C:\Users\Bryn Verhaevert\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development" />
-      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Javascript3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development" />
@@ -82,10 +109,25 @@
       <workItem from="1648536631899" duration="6910000" />
       <workItem from="1648570564771" duration="4531000" />
       <workItem from="1648575435784" duration="136000" />
+      <workItem from="1648578516483" duration="167000" />
+      <workItem from="1648625908681" duration="8148000" />
+      <workItem from="1649693565456" duration="1023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
