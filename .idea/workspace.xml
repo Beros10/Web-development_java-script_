@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht colorpicker/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht dom-tree/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 1/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 2/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/oefening 3/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/opdracht extra oefeningen/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript6/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript7/demo timers(1)/Demotimers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript7/scripts/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript7/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +50,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_\javascript6" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_\javascript6\opdracht extra oefeningen" />
-      <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\Web-development_java-script_" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript5" />
       <recent name="C:\Users\brynv\OneDrive - Hogeschool VIVES\1ste jaar\2de semester\Web development\javascript4" />
     </key>
@@ -111,7 +93,9 @@
       <workItem from="1648575435784" duration="136000" />
       <workItem from="1648578516483" duration="167000" />
       <workItem from="1648625908681" duration="8148000" />
-      <workItem from="1649693565456" duration="1023000" />
+      <workItem from="1649693565456" duration="1113000" />
+      <workItem from="1650437526979" duration="32000" />
+      <workItem from="1650437786196" duration="346000" />
     </task>
     <servers />
   </component>
