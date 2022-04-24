@@ -47,34 +47,47 @@ const setup = () => {
 
 const draaikaart = (event) => {
     let target = event.currentTarget;
-
-    if(target ===global.FIRSTCARD){
+    let tussenStap = target.lastChild;
+    let foto = tussenStap.firstChild;
+    console.log(foto)
+    if(foto ===global.FIRSTCARD){
         return;
     }
     target.classList.toggle("flip")
     if(!global.ALEENKAARTOMGEDRAAID){
         global.ALEENKAARTOMGEDRAAID = true;
-        global.FIRSTCARD = target;
+        global.FIRSTCARD = foto;
         return;
     }
-    global.SECONDCARD = target;
+    global.SECONDCARD = foto;
+    let timeout = setTimeout((':input').attr('disabled', 'disabled'),2000)
     checkMatch()
 }
 
 const checkMatch = () => {
+    let src1 = global.FIRSTCARD.getAttribute('src')
+    console.log(src1)
   if(global.FIRSTCARD.src === global.SECONDCARD.src){
-      global.FIRSTCARD.removeEventListener('click', draaikaart);
-      global.SECONDCARD.removeEventListener('click', draaikaart);
+      let tussenstap1 = global.FIRSTCARD.parentElement;
+      let tussenstap1bis = tussenstap1.parentElement;
+      let tussenstap2 = global.SECONDCARD.parentElement;
+      let tussenstap2bis = tussenstap2.parentElement;
+      tussenstap1bis.removeEventListener('click', draaikaart);
+      tussenstap2bis.removeEventListener('click', draaikaart);
   }
   else {
       setTimeout(terugdraaien,1500)
   }
 }
 const terugdraaien = () => {
-  global.FIRSTCARD.classList.remove('flip');
-  global.SECONDCARD.classList.remove('flip');
-  global.ALEENKAARTOMGEDRAAID = false;
-  global.FIRSTCARD = null;
-  global.SECONDCARD = null;
+    let tussenstap1 = global.FIRSTCARD.parentElement;
+    let tussenstap1bis = tussenstap1.parentElement;
+    let tussenstap2 = global.SECONDCARD.parentElement;
+    let tussenstap2bis = tussenstap2.parentElement;
+    tussenstap1bis.classList.remove('flip');
+    tussenstap2bis.classList.remove('flip');
+    global.ALEENKAARTOMGEDRAAID = false;
+    global.FIRSTCARD = null;
+    global.SECONDCARD = null;
 }
 window.addEventListener("load", setup);
