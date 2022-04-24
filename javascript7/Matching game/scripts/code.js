@@ -1,23 +1,19 @@
 let global ={
     AANTAL_HORIZONTAAL: 4,
     AANTAL_VERTICAAL:3,
-    AANTAL_KAARTEN:6
-
+    AANTAL_KAARTEN:6,
+    FIRSTCARD: null,
+    SECONDCARD:null ,
+    ALEENKAARTOMGEDRAAID: false
 }
 const setup = () => {
     let kaarten = []
-    for(let i =0;i<7;i++){
-        if(i===0) {
-            kaarten[i] = "achterkant.png"
-        }
-        else{
-            kaarten[i] = "kaart"+i+".png"
-        }
+    for(let i=1;i<7;i++){
+            kaarten[i-1] = "kaart"+i+".png"
     }
     for(let i=1;i<7;i++){
-            kaarten[i+6] = "kaart"+i+".png"
+            kaarten[i+5] = "kaart"+i+".png"
     }
-    console.log(kaarten)
     for(let j = 1; j < global.AANTAL_KAARTEN*2+1; j++) {
         let speelveld= document.getElementById('speelveld');
         let tag1 = document.createElement("div");
@@ -30,7 +26,7 @@ const setup = () => {
         let tag3 = document.createElement("div");
         tag3.classList.add('achterkant')
         let tag4 = document.createElement("img");
-        let gekozenKaart = Math.floor(1+Math.random()*kaarten.length)
+        let gekozenKaart = Math.floor(Math.random()*kaarten.length)
         tag4.src = 'images/' + kaarten[gekozenKaart];
         kaarten.splice(gekozenKaart,1);
         let value1= "foto"+j
@@ -43,9 +39,42 @@ const setup = () => {
         tag1.appendChild(tag3)
         speelveld.appendChild(tag1)
     }
-    
-
+    for(let k=1;k<13;k++){
+        let img = document.getElementById("deKaart"+k);
+        img.addEventListener("click",draaikaart)
+    }
 }
 
+const draaikaart = (event) => {
+    let target = event.currentTarget;
 
+    if(target ===global.FIRSTCARD){
+        return;
+    }
+    target.classList.toggle("flip")
+    if(!global.ALEENKAARTOMGEDRAAID){
+        global.ALEENKAARTOMGEDRAAID = true;
+        global.FIRSTCARD = target;
+        return;
+    }
+    global.SECONDCARD = target;
+    checkMatch()
+}
+
+const checkMatch = () => {
+  if(global.FIRSTCARD.src === global.SECONDCARD.src){
+      global.FIRSTCARD.removeEventListener('click', draaikaart);
+      global.SECONDCARD.removeEventListener('click', draaikaart);
+  }
+  else {
+      setTimeout(terugdraaien,1500)
+  }
+}
+const terugdraaien = () => {
+  global.FIRSTCARD.classList.remove('flip');
+  global.SECONDCARD.classList.remove('flip');
+  global.ALEENKAARTOMGEDRAAID = false;
+  global.FIRSTCARD = null;
+  global.SECONDCARD = null;
+}
 window.addEventListener("load", setup);
