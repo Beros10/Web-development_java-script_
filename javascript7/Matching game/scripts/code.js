@@ -4,7 +4,8 @@ let global ={
     AANTAL_KAARTEN:6,
     FIRSTCARD: null,
     SECONDCARD:null ,
-    ALEENKAARTOMGEDRAAID: false
+    ALEENKAARTOMGEDRAAID: false,
+    ISBUSY: false
 }
 const setup = () => {
     let kaarten = []
@@ -46,34 +47,36 @@ const setup = () => {
 }
 
 const draaikaart = (event) => {
-    let target = event.currentTarget;
-    let tussenStap = target.lastChild;
-    let foto = tussenStap.firstChild;
-    console.log(foto)
-    if(foto ===global.FIRSTCARD){
-        return;
-    }
-    target.classList.toggle("flip")
-    if(!global.ALEENKAARTOMGEDRAAID){
-        global.ALEENKAARTOMGEDRAAID = true;
-        global.FIRSTCARD = foto;
-        return;
-    }
-    global.SECONDCARD = foto;
-    let timeout = setTimeout((':input').attr('disabled', 'disabled'),2000)
-    checkMatch()
+
+        let target = event.currentTarget;
+        let tussenStap = target.lastChild;
+        let foto = tussenStap.firstChild;
+        if (foto === global.FIRSTCARD) {
+            return;
+        }
+        if (!global.ALEENKAARTOMGEDRAAID) {
+            target.classList.toggle("flip")
+            global.ALEENKAARTOMGEDRAAID = true;
+            global.FIRSTCARD = foto;
+            return;
+        }
+        if(!global.ISBUSY) {
+            global.ISBUSY = true;
+            target.classList.toggle("flip")
+            global.SECONDCARD = foto;
+            checkMatch()
+        }
 }
 
 const checkMatch = () => {
-    let src1 = global.FIRSTCARD.getAttribute('src')
-    console.log(src1)
-  if(global.FIRSTCARD.src === global.SECONDCARD.src){
+    if(global.FIRSTCARD.src === global.SECONDCARD.src){
       let tussenstap1 = global.FIRSTCARD.parentElement;
       let tussenstap1bis = tussenstap1.parentElement;
       let tussenstap2 = global.SECONDCARD.parentElement;
       let tussenstap2bis = tussenstap2.parentElement;
       tussenstap1bis.removeEventListener('click', draaikaart);
       tussenstap2bis.removeEventListener('click', draaikaart);
+      resetGlobal();
   }
   else {
       setTimeout(terugdraaien,1500)
@@ -86,8 +89,12 @@ const terugdraaien = () => {
     let tussenstap2bis = tussenstap2.parentElement;
     tussenstap1bis.classList.remove('flip');
     tussenstap2bis.classList.remove('flip');
+    resetGlobal()
+}
+const resetGlobal = () => {
     global.ALEENKAARTOMGEDRAAID = false;
     global.FIRSTCARD = null;
     global.SECONDCARD = null;
+    global.ISBUSY = false;
 }
 window.addEventListener("load", setup);
