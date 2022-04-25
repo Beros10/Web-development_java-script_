@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c553047b-13b7-4c0c-aa13-0af2f156b5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript7/hit_an_object/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript7/hit_an_object/scripts/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript7/hit_an_object/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript1/rekenmachine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript1/rekenmachine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht 01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht 03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht 03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht 05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht 05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht 06 + opdracht kopieer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht 06 + opdracht kopieer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht arrays/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/Opdracht substring/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/Opdracht substring/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript3/Opdracht colorpicker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript3/Opdracht colorpicker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript3/Opdracht paragrafen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript3/Opdracht paragrafen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript3/Opdracht producten/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript3/Opdracht producten/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript4/Opdracht Man van An/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript4/Opdracht Man van An/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript4/Opdracht formulier/formulierElementen.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript4/Opdracht formulier/formulierElementen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +107,7 @@
       <workItem from="1649693565456" duration="1113000" />
       <workItem from="1650437526979" duration="32000" />
       <workItem from="1650437786196" duration="7836000" />
+      <workItem from="1650869382452" duration="303000" />
     </task>
     <servers />
   </component>
