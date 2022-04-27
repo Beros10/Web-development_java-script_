@@ -29,7 +29,6 @@ const bewaarBewerktePersoon = () => {
 
         if (global.INDEX === -1) {
             let newOption = document.createElement('option');
-            newOption.setAttribute('data-json', string);
             newOption.setAttribute('id', personen.length.toString())
             personen.push(string)
             let tekst = document.createTextNode(persoon.voornaam + ' ' + persoon.familienaam);
@@ -50,8 +49,6 @@ const bewaarBewerktePersoon = () => {
 const laden = (event) => {
     let target = event.currentTarget;
     global.INDEX = target.getAttribute('id');
-    let jsontekst = target.getAttribute('data-json');
-    persoon = JSON.parse(jsontekst);
     document.getElementById('txtVoornaam').value = persoon.voornaam;
     document.getElementById('txtFamilienaam').value = persoon.familienaam;
     document.getElementById('txtGeboorteDatum').value = persoon.geboorteDatum;
