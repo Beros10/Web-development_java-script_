@@ -34,7 +34,7 @@ const bewaarBewerktePersoon = () => {
             let tekst = document.createTextNode(persoon.voornaam + ' ' + persoon.familienaam);
             newOption.append(tekst);
             select.append(newOption);
-            newOption.addEventListener('click', laden)
+            newOption.addEventListener('click', laden);
         } else {
             personen[global.INDEX] = string;
             let id = global.INDEX;
@@ -49,6 +49,7 @@ const bewaarBewerktePersoon = () => {
 const laden = (event) => {
     let target = event.currentTarget;
     global.INDEX = target.getAttribute('id');
+    persoon = JSON.parse(personen[global.INDEX]);
     document.getElementById('txtVoornaam').value = persoon.voornaam;
     document.getElementById('txtFamilienaam').value = persoon.familienaam;
     document.getElementById('txtGeboorteDatum').value = persoon.geboorteDatum;
